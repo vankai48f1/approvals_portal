@@ -4,4 +4,5 @@ from odoo import models, fields, api
 
 
 class OnnetApprovalRequest(models.Model):
-    pass
+    _name = 'approval.request'
+    _inherit = 'approval.request'
